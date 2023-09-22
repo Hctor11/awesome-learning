@@ -5,6 +5,18 @@
         img: './math2.png',
         type: TYPES[1],
         topic: TOPICS[0]
+        
+        
+        const TYPES = ["Course", "Book", "Blog", "Repository"];
+        const TOPICS = [
+  "Mathematics",
+  "Machine Learning",
+  "Programming Languages",
+  "Computer Science",
+  "Design",
+  "Data Science",
+];
+
 """
 
 def createEntry(title, description, url, img, typeOfEntry, topic):
@@ -14,13 +26,12 @@ def createEntry(title, description, url, img, typeOfEntry, topic):
     """
     
     print("{")
-    print(f'title: {title},')
-    print(f'description: {description},')
-    print(f'url: {url},')
-    print(f'img: {img},')
+    print(f'title: "{title}",')
+    print(f'description: "{description}",')
+    print(f'url: "{url}",')
+    print(f'img: "{img}",')
     print(f'type: {typeOfEntry},')
     print(f'topic: {topic}')
     print("}")
 
-    
-createEntry("Feynman lectures on physics", "high quality up-to-date copy of Feynman's legendary lectures totallly free.", "https://www.feynmanlectures.caltech.edu/", './math2.png', "1","2")
+createEntry("OSSu Math", "Path to a free self-taught education in Math!", "https://github.com/ossu/math", './math6.png', "TYPES[3]","TOPICS[0]")
