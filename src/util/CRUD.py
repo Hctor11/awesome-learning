@@ -34,4 +34,4 @@ def createEntry(title, description, url, img, typeOfEntry, topic):
     print(f'topic: {topic}')
     print("}")
 
-createEntry("OSSu Math", "Path to a free self-taught education in Math!", "https://github.com/ossu/math", './math6.png', "TYPES[3]","TOPICS[0]")
+createEntry("Introduction To Computer Science And Programming In Python", "6.0001 Introduction to Computer Science and Programming in Python is intended for students with little or no programming experience.", "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/syllabus/", './cs4.png', "TYPES[3]","TOPICS[0]")
